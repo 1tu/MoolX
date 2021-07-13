@@ -1,0 +1,32 @@
+{
+  "name": "MoolX",
+  "version": "0.1.0",
+  "description": "MobX lazy reactive tools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1tu/MoolX"
+  },
+  "author": "skripko.andrey@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "tslib": "^2.1.0"
+  },
+  "peerDependencies": {
+    "lodash": "^4.17.11",
+    "moment": "^2.29.1",
+    "mobx": "^6.3.2",
+    "currency-formatter": "^1.5.6",
+    "crypto-js": "^3.3.0"
+  },
+  "peerDependenciesMeta": {
+    "crypto-js": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.1",
+    "@types/lodash": "^4.14.168",
+    "eslint": "^7.20.0",
+    "madge": "^4.0.2"
+  }
+}

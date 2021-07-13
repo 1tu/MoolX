@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "esnext",
+    "allowJs": true,
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "useDefineForClassFields": true,
+    "jsx": "react",
+    "lib": ["dom", "es2015", "es2016"],
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "strict": true,
+    "baseUrl": ".",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false
+  },
+  "exclude": ["node_modules"]
+}
